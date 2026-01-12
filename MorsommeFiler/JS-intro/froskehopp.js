@@ -22,3 +22,13 @@ function superklikk(){
 
     console.log("SUPERKLIKK");
 }
+
+function checkNumber(){
+    let n = document.getElementById("input").value;
+
+    if(n >= 100){
+        document.getElementById("result").innerHTML = "Stooooort";
+    }else{
+        document.getElementById("result").innerHTML = "Liiiiiiiiiite";
+    }
+}
